@@ -1,0 +1,294 @@
+.a {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background-color: rgba(128, 128, 128, 0.272);
+
+}
+
+.a1 {
+    display: flex;
+    gap: 40px;
+    padding-right: 100px;
+}
+
+.a2 {
+    color: black;
+
+}
+
+.aa {
+    padding-left: 100px;
+}
+
+@media screen and (max-width:750px) {
+    .a {
+        flex-direction: column;
+        text-align: center;
+        align-items: center;
+    }
+
+    .a1 {
+        text-align: center;
+        align-items: center;
+        padding: 0px;
+    }
+
+    .aa {
+        padding: 0px;
+    }
+}
+
+@media screen and (max-width:450px) {
+    .a1 {
+        flex-direction: column;
+        text-align: center;
+        align-items: center;
+    }
+}
+
+.b {
+    background-image: url(./1.jpeg);
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    background-position: center;
+    background-attachment: fixed;
+    height: 600px;
+    width: 100%;
+}
+
+.b1 {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    color: white;
+    font-size: 25px;
+    padding-top: 400px;
+
+}
+
+.b2 {
+    color: white;
+}
+
+.b3 {
+    color: white;
+    text-align: center;
+}
+
+.b4 {
+    font-size: 80px;
+}
+
+
+.c {
+    text-align: center;
+    background-color: rgba(128, 128, 128, 0.477);
+    padding-top: 100px;
+    padding-bottom: 100px;
+}
+
+.c1 {
+    font-size: 30px;
+}
+
+.c2 {
+    font-size: 15px;
+}
+
+
+
+.d {
+    padding-left: 100px;
+    padding-right: 100px;
+    background-color: rgba(128, 128, 128, 0.235);
+}
+
+.d1 {
+    background-color: white;
+    padding: 40px;
+}
+
+.d2 {
+    padding-top: 20px;
+    display: flex;
+    justify-content: space-between;
+
+}
+
+.d3 {
+    color: #052C43;
+    margin: 0px;
+}
+
+.d4 {
+    color: #CF7500;
+}
+
+.d5 {
+    display: flex;
+    justify-content: space-between;
+    padding-top: 10px;
+}
+
+.d6 {
+    width: 30%;
+    padding: 10px;
+}
+
+.d77 {
+    padding-top: 10px;
+}
+
+.d7 {
+    width: 100%;
+    padding: 50px;
+}
+
+.d8 {
+    border: none;
+    border-radius: 100px;
+    padding: 8px;
+    background-color: #CF7500;
+    color: white;
+}
+
+.d9 {
+    padding-top: 40px;
+    font-size: 30px;
+}
+
+.d10 {
+    display: flex;
+    gap: 20px;
+    color: #CF7500;
+}
+
+@media screen and (max-width:1000px) {
+    .d {
+        padding: 0px;
+    }
+
+}
+
+@media screen and (max-width:500px) {
+    .d1 {
+        text-align: center;
+    }
+
+    .d2 {
+        flex-direction: column;
+    }
+
+    .d5 {
+        flex-direction: column;
+        gap: 10px;
+    }
+
+    .d6 {
+        width: 100%;
+        gap: 10px;
+    }
+
+    .d10 {
+        flex-direction: column;
+    }
+}
+
+.e {
+    text-align: center;
+    padding-top: 100px;
+    padding-bottom: 40px;
+    background-color: rgba(128, 128, 128, 0.235);
+}
+
+.f {
+    display: flex;
+    padding: 10px;
+    gap: 10px;
+}
+@media screen and (max-width:900px) {
+    .f{
+        flex-direction: column;
+    }
+    .ff{
+        width: 100%;
+    }
+}
+
+
+.q {
+    display: flex;
+    gap: 100px;
+    padding: 40px;
+    background-color: rgb(212, 234, 245);
+    padding-top: 100px;
+    padding-bottom: 80px;
+}
+
+.q1 {
+    display: flex;
+    gap: 50px;
+}
+
+.q3 {
+    display: flex;
+}
+
+.q5 {
+    display: flex;
+    gap: 10px;
+    align-items: center;
+}
+
+.q6 {
+    display: flex;
+}
+
+.q7 {
+    margin: 0px;
+    padding: 0px;
+}
+
+.q8 {
+    display: flex;
+    gap: 50px;
+}
+
+.q9 {
+    padding-top: 30px;
+}
+
+.q10 {
+    padding-bottom: 30px;
+}
+
+@media screen and (max-width:850px) {
+    .q {
+        flex-direction: column;
+        text-align: center;
+        align-items: center;
+    }
+}
+
+@media screen and (max-width:600px) {
+    .q1 {
+        flex-direction: column;
+        text-align: center;
+        align-items: center;
+    }
+
+    .q8 {
+        flex-direction: column;
+        text-align: center;
+        align-items: center;
+    }
+
+}
+
+.r {
+    text-align: center;
+    padding-top: 50px;
+    padding-bottom: 30px;
+    background-color: rgb(171, 214, 235);
+}

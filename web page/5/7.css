@@ -1,0 +1,348 @@
+.a {
+    background-image: url(./work_1.jpg);
+    height: 600px;
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    background-attachment: fixed;
+}
+
+.a1 {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-left: 30px;
+    padding-right: 30px;
+}
+
+.a2 {
+    display: flex;
+    gap: 20px;
+}
+
+.a3 {
+    color: black;
+}
+
+.a4 {
+    padding-top: 100px;
+}
+
+.a5 {
+    font-size: 120px;
+    margin: 0px;
+    text-align: center;
+}
+
+@media screen and (max-width:600px) {
+    .a1 {
+        flex-direction: column;
+    }
+
+    .a2 {
+        flex-direction: column;
+    }
+}
+
+@media screen and (max-width:1050px) {
+    .a5 {
+        font-size: 80px;
+    }
+
+}
+
+@media screen and (max-width:650px) {
+    .a5 {
+        font-size: 40px;
+    }
+
+    .a4 {
+        padding-top: 200px;
+    }
+}
+
+@media screen and (max-width:400px) {
+    .a5 {
+        font-size: 30px;
+    }
+}
+
+
+
+
+
+
+
+
+
+
+
+
+.b {
+    display: flex;
+    justify-content: center;
+    gap: 30px;
+    padding-left: 100px;
+    padding-right: 100px;
+    align-items: center;
+    padding-top: 100px;
+    padding-bottom: 100px;
+}
+
+.b1 {
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.b2 {
+    width: 70%;
+    justify-content: center;
+    align-items: center;
+}
+
+.b3 {
+    margin: 0px;
+    padding-top: 20px;
+}
+
+@media screen and (max-width:1100px) {
+    .b {
+        padding-left: 0px;
+        padding-right: 0px;
+    }
+}
+
+@media screen and (max-width:800px) {
+    .b2 {
+        width: 80%;
+    }
+}
+
+@media screen and (max-width:600px) {
+    .b {
+        flex-direction: column;
+    }
+
+    .b2 {
+        width: 100%;
+    }
+}
+
+
+
+
+
+
+
+
+
+
+
+
+.c {
+    text-align: center;
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.c1 {
+    width: 40%;
+}
+
+.cc {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    padding-top: 50px;
+}
+
+.c2 {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    padding-top: 20px;
+    padding-bottom: 100px;
+}
+
+@media screen and (max-width:700px) {
+    .cc {
+        flex-direction: column;
+    }
+
+    .c2 {
+        flex-direction: column;
+    }
+
+    .c1 {
+        width: 100%;
+    }
+
+}
+
+
+
+
+
+.line {
+    border: 1px solid rgba(0, 0, 0, 0.532);
+}
+
+
+
+
+
+
+.d {
+    padding-top: 100px;
+    display: flex;
+    justify-content: center;
+    gap: 30px;
+    padding-left: 50px;
+    padding-right: 50px;
+    padding-bottom: 100px;
+}
+
+.d1 {
+    width: 50%;
+}
+
+.d2 {
+    color: rgb(111, 66, 193);
+}
+
+.d3 {
+    font-size: 18px;
+}
+
+.d4 {
+    background-color: white;
+    color: black;
+    padding: 10px 20px;
+    font-size: 17px;
+}
+
+.d4:hover {
+    background-color: black;
+    color: white;
+    border: none;
+}
+
+@media screen and (max-width:992px) {
+    .d {
+        flex-direction: column;
+        text-align: center;
+    }
+
+    .d1 {
+        width: 100%;
+        text-align: center;
+    }
+}
+
+@media screen and (max-width:500px) {
+    .d {
+        padding-left: 0px;
+        padding-right: 0PX;
+    }
+}
+
+
+
+
+
+
+
+.e {
+    text-align: center;
+    color: white;
+    background-color: rgb(111, 66, 193);
+    padding-top: 40px;
+    padding-bottom: 40px;
+}
+
+.e1 {
+    font-size: 20px;
+}
+
+.e2 {
+    background-color: rgb(111, 66, 193);
+    color: white;
+    border: none;
+    border: 2px solid white;
+    font-size: 17px;
+    padding: 15px 30px;
+}
+
+
+
+
+
+
+
+
+
+
+
+.f {
+    display: flex;
+    justify-content: center;
+    gap: 300px;
+    padding-top: 100px;
+
+}
+
+.f2 {
+    font-size: 18px;
+}
+
+.f5 {
+    margin: 0px;
+    font-size: 17px;
+}
+
+.f6 {
+    color: black;
+    font-size: 17px;
+}
+
+.f7 {
+    padding-top: 20px;
+}
+
+.f8 {
+    text-align: center;
+    padding-top: 100px;
+    padding-bottom: 100px;
+}
+
+.f9 {
+    font-size: 18px;
+}
+
+@media screen and (max-width:1000px) {
+    .f {
+        gap: 0px;
+        gap: 150px;
+    }
+}
+
+@media screen and (max-width:800px) {
+    .f {
+        gap: 0px;
+        gap: 50px;
+    }
+}
+
+@media screen and (max-width:550px) {
+    .f {
+        flex-direction: column;
+        justify-content: center;
+        text-align: center;
+
+    }
+}

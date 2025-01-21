@@ -1,0 +1,178 @@
+.dropdown-menu {
+    color: white;
+}
+
+.aaa {
+    color: white;
+    background-color: black;
+    border: none;
+}
+
+.a {
+    display: flex;
+    justify-content: space-around;
+    background-color: black;
+    padding: 20px;
+    align-items: center;
+}
+
+.a1 {
+    gap: 50px;
+    display: flex;
+    color: white;
+}
+
+.a2 {
+    color: white;
+    border: none;
+}
+
+
+@media screen and (max-width:900px) {
+    .a {
+        text-align: center;
+    }
+
+    .a1 {
+        display: none;
+    }
+}
+
+.b {
+    background-color: #fab700;
+    padding: 19%;
+    text-align: center;
+    color: white;
+    align-items: center;
+}
+
+.b1 {
+    width: 100%;
+    text-align: center;
+    align-items: center;
+}
+
+.c {
+    padding: 50px;
+}
+
+.d {
+    border: 1px solid black;
+}
+
+.e {
+    padding: 15px 25px;
+    font-size: 13px;
+}
+
+.e1 {
+    padding: 10px 30px;
+    font-size: 13px;
+    border-radius: 200px;
+}
+
+.f {
+    padding: 50px;
+    padding-top: 0px;
+}
+
+.ff {
+    padding-left: 80px;
+
+}
+
+.fff {
+    display: flex;
+    justify-content: end;
+    padding-right: 80px;
+}
+
+.g {
+    border: 1px solid black;
+}
+
+.h {
+    padding: 70px;
+}
+
+.q {
+    display: flex;
+    justify-content: space-around;
+    color: white;
+    padding: 30px;
+}
+
+.q1 {
+    width: 30%;
+}
+
+.q11 {
+    width: 30%;
+}
+
+.qq {
+    background-color: #222;
+    padding-top: 100px;
+    padding-bottom: 100p;
+}
+
+.q2 {
+    color: #fab700;
+}
+
+.q3 {
+    width: 100%;
+    padding: 10px;
+}
+
+.r {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    color: white;
+    padding-top: 30px;
+    padding-bottom: 30px;
+    gap: 50px;
+}
+
+.r1 {
+    display: flex;
+    align-items: center;
+    gap: 20px;
+    color: white;
+    font-size: 30px;
+}
+
+@media screen and (max-width:1000px) {
+    .q {
+        flex-direction: column;
+        text-align: center;
+        align-items: center;
+        width: 100%;
+        padding: 0px;
+        margin: 0px;
+        gap: 30px;
+    }
+
+    .q1 {
+        width: 100%;
+    }
+
+    .q22 {
+        width: 100%;
+    }
+
+    .q4 {
+        width: 100%;
+    }
+
+    .q4 {
+        width: 100%;
+    }
+
+    .r {
+        flex-direction: column;
+        text-align: center;
+        align-items: center;
+    }
+}
